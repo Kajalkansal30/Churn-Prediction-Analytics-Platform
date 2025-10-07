@@ -21,11 +21,10 @@ We use the **Telco Customer Churn Dataset** from Kaggle (https://www.kaggle.com/
 ## 📂 Tech Stack
 | Layer              | Tools                                                                 |
 |--------------------|-----------------------------------------------------------------------|
-| Data Engineering   | Python, Pandas, SQLAlchemy, SQLite                                     |
-| Analytics          | Pandas, Matplotlib, Seaborn, Sweetviz, Pandas Profiling               |
+| Data Engineering   | Python, Pandas, SQLite                                     |
+| Analytics          | Pandas, Matplotlib, Seaborn, Pandas Profiling               |
 | Modeling           | Scikit-learn, XGBoost, SHAP (for interpretability)                     |
 | Storage            | SQLite (telco.db)                                                     |
-| Deployment         | Streamlit (suggested for dashboard; not yet implemented in code)      |
 | Visualization      | Matplotlib, Seaborn                                                   |
 
 ## 🧱 Project Breakdown (Modular Skill Layers)
@@ -61,7 +60,7 @@ We use the **Telco Customer Churn Dataset** from Kaggle (https://www.kaggle.com/
 2. **Visualizations**:
    - Histograms for tenure distribution.
    - Bar plots for churn by internet service type.
-   - Use Sweetviz and Pandas Profiling for automated reports (`telco_sweetviz_report.html`, `telco_eda_report.html`).
+   - Use Pandas Profiling for automated reports (`telco_sweetviz_report.html`, `telco_eda_report.html`).
 3. **Business Storytelling**: Identify trends, e.g., "Fiber optic users have higher churn rates."
 4. **Skills Demonstrated**: Data visualization, KPI tracking, automated reporting, business analytics.
 
@@ -151,3 +150,4 @@ This project showcases:
 - Expand to regression (revenue forecasting) or clustering (customer segmentation).
 
 For questions or contributions, open an issue/PR on GitHub!
+
